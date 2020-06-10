@@ -1,5 +1,5 @@
-main{
+div.row{
   width: 100%;
   min-height:700px;
-  background-color: gainsboro;
+  background-color: red;
 }
