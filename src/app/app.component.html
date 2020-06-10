@@ -18,7 +18,10 @@
     </ul>
   </div>
 </nav>
-
-<div class="container" [@routeAnimation]="getAnimationData(routerOutlet)">
+<div class="container">
+  <!-- router outlet hebben dus nodig of we krijgen ons pagina's niet te zien -->
   <router-outlet #routerOutlet="outlet"></router-outlet>
 </div>
+<!-- <div class="container" [@routeAnimation]="getAnimationData(routerOutlet)">
+  <router-outlet #routerOutlet="outlet"></router-outlet>
+</div> -->
