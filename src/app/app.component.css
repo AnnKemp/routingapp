@@ -1,0 +1,12 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+:host { /* ipv het op de body te zetten zet je het hier dus op de :host*/
+  font-family:Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 575px) {
+}
