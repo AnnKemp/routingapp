@@ -1,4 +1,5 @@
-// om het submenu te maken
+// om het submenu te maken, dit is eigenlijk geen submenu maar details voor een product maar daar gebruik je bij Angular blijkbaar de submenu-technologie voor.
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ArticlesComponent } from './articles/articles.component';
