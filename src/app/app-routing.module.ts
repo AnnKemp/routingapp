@@ -20,7 +20,7 @@ const routes: Routes = [
 export class AppRoutingModule { }
 // uitgebreide info over routing zie angular.io/guide/router
 
-// hier wordt het submenu totaal NIET aangeroepen of vermeldt!!!
+// hier wordt het products of articles totaal NIET aangeroepen of vermeldt!!!
 
 
 
