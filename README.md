@@ -1,6 +1,6 @@
 # Routingapp
 
-This app is to study Angular routing and is based on :https://github.com/didinj/angular-routing-navigation-example
+This app is made to study Angular routing and is based on :https://github.com/didinj/angular-routing-navigation-example
 and on: angular.io/guide/router and on: angular.io/guide/route-animations .
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
