@@ -16,7 +16,7 @@ export class AppComponent {
   toggleNavbar() {
     this.navbarOpen = !this.navbarOpen;
   }
-//
+// getAnimationData wordt vanuit de html aangeroepen
 getAnimationData(outlet: RouterOutlet) {
    return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation; // om die animatie op de inhoud te zetten
  }
