@@ -1,4 +1,5 @@
-// heel het animatie-gedeelte heb ik letterlijk gecopy-paste, daar moet ik later nog aan werken
+// Deze animatie trekt op niks, is niet subtiel of smaakvol maar de principes zijn wél interessant om later een eigen betere versie van te maken
+
 import { // hier importeren we de onderdelen van angular/animations die we nodig hebben
   trigger, animateChild, group,
   transition, animate, style, query
