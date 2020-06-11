@@ -14,11 +14,13 @@ const routes: Routes = [
 @NgModule({
   imports: [RouterModule.forRoot(
     routes,
-    { enableTracing: true })], // zo kan je het volgen in de console van je browser
+    { enableTracing: true })], // zo kan je het volgen op welk menu-item je klikt in de console van je browser
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
 // uitgebreide info over routing zie angular.io/guide/router
+
+// hier wordt het submenu totaal NIET aangeroepen of vermeldt!!!
 
 
 

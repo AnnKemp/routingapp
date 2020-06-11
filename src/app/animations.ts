@@ -6,7 +6,7 @@ import { // hier importeren we de onderdelen van angular/animations die we nodig
 
 // Routable animations
 export const slideInAnimation =
-  trigger('routeAnimation', [ // big trigger is de routeAnimation
+  trigger('routeAnimation', [ // big trigger is de routeAnimation, daarin is alles genest
     transition('articles <=> article', [ // ik denk dat die animatie alleen op articles staat . . . even testen en eventueel aanpassen
       style({ position: 'relative' }), // css voor de animatie, de positioning
       query(':enter, :leave', [ // de triggers voor de animatie
@@ -26,7 +26,7 @@ export const slideInAnimation =
           animate('300ms ease-out', style({ left: '100%'})) // nen ease-out on leave van links 100%
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ left: '0%'})) // beb ease-out on enter van links op 0%
+          animate('300ms ease-out', style({ left: '0%'})) // nen ease-out on enter van links op 0%
         ])
       ]),
       query(':enter', animateChild()), // het kind, hetgeen erin zit wordt mee geanimeerd
