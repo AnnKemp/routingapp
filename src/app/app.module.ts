@@ -4,11 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-//import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; wat is dit even onderzoeken waar dit voor dient
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 //import { ProductsModule } from './products/products.module'; die moet ik nog in orde maken
+// dus voor animations-module importeer je die van angular in de module.ts
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,11 +18,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AboutComponent,
     PageNotFoundComponent
   ],
-  imports: [
+  imports: [ // deze vermeldt je deze nog eens bij de imports
     BrowserModule,
-    // NgbModule, nog even uitzoeken waar dit voor dient
     // ProductsModule,  // deze nog even in orde maken
-    AppRoutingModule
+    AppRoutingModule, // voor de routing voor het menu
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
